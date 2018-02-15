@@ -1,0 +1,113 @@
+header {
+    margin: 20px 0;
+}
+
+.icon-github, .icon-mail {
+    display: inline-block;
+    font-size: 52px;
+    padding: 20px;
+}
+
+main {
+    margin: 40px 0;
+}
+
+.project-unit {
+    margin: 15px 0;
+}
+
+.project-board {
+    width: 100%;
+    height: 125px;
+}
+
+a.portfolio-link {
+    display: block;
+    position: relative;
+}
+
+.alt-subtitle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.alt-subtitle-first {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+a.portfolio-link:hover .alt-subtitle {
+    opacity: 1;
+}
+
+a.portfolio-link:hover .alt-subtitle-first {
+    opacity: 0;
+}
+
+.alt-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+}
+
+.alt-text-first {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    padding: 5px 0;
+    margin: 0;
+}
+
+
+
+
+
